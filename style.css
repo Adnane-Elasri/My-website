@@ -1,0 +1,163 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/images/rm314-adj-10.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    margin-top: 110px;
+    font-family: arial, sans-serif;
+    color: aliceblue;
+    flex: nowrap;
+}
+div{
+    border-style: solid;
+    border-radius: 20px;
+    border-color: transparent;
+    display: flex;
+    flex-direction: column;
+    height: 320px;
+    background-color: transparent;
+    width: 270px;
+    box-shadow: 0px 0px 20px rgb(101, 138, 172);
+}
+#login{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    cursor: default;
+}
+#button{
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border-radius: 25px;
+    padding: 3px;
+    margin-left: 110px;
+    margin-top: 0px;
+    box-shadow: 0px 0px 20px rgb(101, 138, 172);
+    border-color: transparent;
+    padding: 6px;
+    color: aliceblue;
+}
+#name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 49px;
+    background-color: transparent;
+    border-radius: 25px;
+    text-align: center;
+    height: 25px;
+    padding: 5px;
+    box-shadow: 0px 0px 20px rgb(101, 138, 172);
+    border-color: transparent;
+    outline: none;
+}
+#Password{
+    display: flex;
+    justify-content: center;
+    margin-left: 49px;
+    background-color: transparent;
+    border-radius: 25px;
+    text-align: center;
+    height: 25px;
+    box-shadow: 0px 0px 20px rgb(101, 138, 172);
+    border-color: transparent;
+    padding: 4px;
+    outline: none;
+}
+#forgot{
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    margin-top: 79px;
+    color: rgb(7, 71, 207);
+}
+#facebook{
+    border-style: solid;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    margin-left: 183px;
+    margin-top: -60px;
+    align-items: center;
+    border-color: transparent;
+    box-shadow: 0px 0px 20px rgb(101, 138, 172);
+    cursor: pointer;
+}
+#google{
+    display: flex;
+    border-style: solid;
+    border-radius: 5px;
+    margin-left: 153px;
+    margin-top: -24px;
+    border-color: transparent;
+    box-shadow: 0px 0px 20px rgb(101, 138, 172);
+    cursor: pointer;
+}
+#with{
+    display: flex;
+    font-size: 15px;
+    border-style: none;
+    border-radius: 25px;
+    margin-left: 50px;
+    height: 30px;
+    margin-top: -25px;
+    font-family: Arial, sans-serif;
+    width: 170px;
+    align-items: center;
+    padding-left: 10px;
+    font-weight: bold;
+    cursor: default;
+}
+.border1{
+    width: 165px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    margin: 49px;
+    margin-top: -49px;
+    border-style: none;
+    padding: 3px;
+}
+
+#button:hover{
+    background-color: aliceblue;
+    color: gray;
+    transition: 0.7s;
+    transform: scale(1.2);
+}
+#forgot:hover{
+    color: lightblue;
+}
+#name:hover{
+    background-color: aliceblue;
+    color: gray;
+    transition: 0.7s;
+    transform: scale(1.1);
+    
+}
+#google:hover{
+    background-color: aliceblue;
+    transform: scale(1.3);
+    transition: 0.5s;
+}
+#facebook:hover{
+    background-color: aliceblue;
+    transition: 0.5s;
+    transform: scale(1.3);
+}
+
+#Password:hover{
+    background-color: aliceblue;
+    transform: scale(1.1);
+    transition: 0.7s;
+    color: grey;
+}
+
+
